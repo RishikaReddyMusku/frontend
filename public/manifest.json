@@ -1,0 +1,10 @@
+{
+    "name": "Budget Tracker",
+    "short_name": "Budget",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "A personal budget tracker app",
+    "icons": []
+  }
+  
