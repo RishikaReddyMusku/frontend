@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 
 export const ExpenseContext = createContext();
 
-const API_BASE = "http://localhost:5000"; // ✅ Ensure it matches your backend port
+const API_BASE = process.env.REACT_APP_BASE_URL;
 
 const ExpenseProvider = ({ children }) => {
   const { token } = useContext(AuthContext);
