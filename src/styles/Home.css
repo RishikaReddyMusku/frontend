@@ -1,0 +1,95 @@
+
+  
+  .home-wrapper {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('../assets/moneybg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6%;
+    min-height: 100vh;
+  }
+  
+  .home-content {
+    max-width: 50%;
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .home-content h1 span {
+    color: #00b894;
+  }
+  
+  .home-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-login {
+    background-color: #0984e3;
+  }
+  
+  .btn-login:hover {
+    background-color: #0866b4;
+  }
+  
+  .btn-signup {
+    background-color: #00b894;
+  }
+  
+  .btn-signup:hover {
+    background-color: #009e7f;
+  }
+  
+  .home-graphic {
+    max-width: 45%;
+  }
+  
+  .home-graphic img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 768px) {
+    .home-wrapper {
+      flex-direction: column;
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .home-content, .home-graphic {
+      max-width: 100%;
+    }
+  
+    .home-buttons {
+      justify-content: center;
+    }
+  }
+  

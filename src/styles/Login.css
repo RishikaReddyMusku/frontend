@@ -1,0 +1,41 @@
+.login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: url('../assets/moneybg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4rem;
+  }
+  
+  .login-box {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 110px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  .login-box input.form-control {
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+ 
+  
+  .alert {
+    margin-top: 1rem;
+  }
+  

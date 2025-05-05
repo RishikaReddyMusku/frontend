@@ -10,6 +10,7 @@ import {
 import { ExpenseContext } from "../context/ExpenseContext";
 import { AuthContext } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
+import '../styles/Dashboard.css';
 
 const Dashboard = () => {
   const { expenses, addExpense, deleteExpense, updateExpense } = useContext(ExpenseContext);
@@ -78,7 +79,7 @@ const Dashboard = () => {
   }, [filteredExpenses]);
 
   return (
-    <div className="container mt-4">
+    <div className="dashboard-container container mt-4">
       <div className="d-flex justify-content-between align-items-center mb-3">
         <h2>Welcome to Your Budget Tracker!</h2>
         <button className="btn btn-danger" onClick={handleLogout}>
