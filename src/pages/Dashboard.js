@@ -79,6 +79,7 @@ const Dashboard = () => {
   }, [filteredExpenses]);
 
   return (
+    <div className="greenbg">
     <div className="dashboard-container container mt-4">
       <div className="d-flex justify-content-between align-items-center mb-3">
         <h2>Welcome to Your Budget Tracker!</h2>
@@ -224,6 +225,7 @@ const Dashboard = () => {
           )}
         </tbody>
       </table>
+    </div>
     </div>
   );
 };

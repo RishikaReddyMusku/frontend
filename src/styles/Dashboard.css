@@ -1,13 +1,10 @@
-body{
-    background-color: rgb(218, 243, 218);
-}
 
 .container {
     max-width: 1200px;
     margin-bottom: 40px;
     margin-top: 60px;
     padding: 20px;
-    background-color: white;
+    background-color:white;
     border-radius: 12px;
 }
   
