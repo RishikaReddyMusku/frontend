@@ -47,6 +47,10 @@
     transition: background 0.3s ease;
     margin-bottom: 1rem;
   }
+  button[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
   
   .register-box button:hover {
     background-color: #009e7f;
